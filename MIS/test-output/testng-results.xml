@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11823" started-at="2019-05-22T09:21:01Z" finished-at="2019-05-22T09:21:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11823" started-at="2019-05-22T09:21:01Z" finished-at="2019-05-22T09:21:13Z">
+      <class name="pages.Loginpage">
+        <test-method status="PASS" signature="test_InvalidLogIN()[pri:0, instance:pages.Loginpage@6b57696f]" name="test_InvalidLogIN" duration-ms="11803" started-at="2019-05-22T09:21:01Z" finished-at="2019-05-22T09:21:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_InvalidLogIN -->
+      </class> <!-- pages.Loginpage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
