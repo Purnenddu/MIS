@@ -41,6 +41,8 @@ import org.testng.annotations.Test;
 		    	driver.findElement(By.xpath("//input[@name='password']")).clear();
 		    	driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin");
 		    	
+		    	String submitT = driver.findElement(By.xpath("//button[@name='submit']")).getText();
+		    	System.out.println(submitT);
 		    	driver.findElement(By.xpath("//button[@name='submit']")).click();
   
 		    	Thread.sleep(2000);
